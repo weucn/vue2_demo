@@ -29,10 +29,10 @@ export default {
   production: process.env.NODE_ENV === 'production' && process.env.VUE_APP_PREVIEW !== 'true',
   // 系统配置
   app: {
-    title: '天为指印', // 项目名称（中文）=》展示用
+    title: '测试', // 项目名称（中文）=》展示用
     name: 'tianwei_project_admin', // 项目名称（英文）=》账号token相关
-    logo: require('@/assets/logo.png'),
-    desc: '比完美更重要的是完成',
+    logo: require('@/assets/logo.jpeg'),
+    desc: '',
     version: '',
     vcontent: '',
     vlink: '',

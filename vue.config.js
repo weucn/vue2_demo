@@ -13,7 +13,7 @@ function resolve (dir) {
 function getGitHash () {
   try {
     return GitRevision.version()
-  } catch (e) {}
+  } catch (e) { }
   return 'unknown'
 }
 
@@ -30,10 +30,10 @@ const assetsCDN = {
   css: [],
   // https://unpkg.com/browse/vue@2.6.10/
   js: [
-    '//cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js',
-    '//cdn.jsdelivr.net/npm/vue-router@3.5.1/dist/vue-router.min.js',
-    '//cdn.jsdelivr.net/npm/vuex@3.1.1/dist/vuex.min.js',
-    '//cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js'
+    '//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/vue/2.6.10/vue.min.js',
+    '//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/vue-router/3.1.3/vue-router.min.js',
+    '//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/vuex/3.1.1/vuex.min.js',
+    '//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/axios/0.19.0/axios.min.js'
   ]
 }
 
